@@ -1,0 +1,98 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.italic {
+	font-style: italic;	
+}
+.sticky.active{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.menu-item-5732{
+	display:none!important;
+}
+@media(max-width:400px){
+	.menu-item-5732{
+		display:block!important;
+		padding-bottom:20px;
+	}
+	.menu-item-5732 a{
+		background-color: var(--e-global-color-secondary);
+		color:var(--e-global-color-5613bef);
+		width: 167px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	.menu-item-5732 a:hover{
+	 background-color: 	var(--e-global-color-f7b32ff);
+	 color:#fff;
+	}
+	
+}
+@media(max-width:600px){
+	.rm-bg{
+		background-image: none!important;
+	}
+	.xs-overflow-x-auto{
+		overflow-x:auto;
+	}
+	
+	.e-con-inner>.elementor-element.elementor-absolute, .e-con>.elementor-element.elementor-absolute, .elementor-widget-wrap>.elementor-element.elementor-absolute,
+	.e-con-inner>.elementor-element.elementor-absolute, .e-con>.elementor-element.elementor-absolute, .elementor-widget-wrap>.elementor-element.elementor-absolute{
+    	position: initial;
+	}
+	main#content {
+		padding: 30px;
+	}
+	.page-header h1{
+		text-align:center;
+	}
+}
+main#content {
+	padding-bottom: 60px;
+}
+
+	.form-newslater input{
+        background-color: transparent;
+        border-bottom: 0px solid red!important;
+        border-right: 0px solid red!important;
+        border-left: 0px solid red!important;
+        margin:5px 10x;
+        border-radius: 0px!important;
+        color:#fff;
+    }
+    .form-newslater input:focus{
+        outline: none;
+    }
+    input[type="submit"]{
+        color: var(--e-global-color-primary );
+    	background-color: var(--e-global-color-secondary );
+    }
+    input[type="submit"]:hover{
+        color: var(--e-global-color-f657c4f );
+    	background-color: var(--e-global-color-063a9df );
+    }
+     input[type="submit"]:focus{
+         outline: none;
+     }
+label input,label textarea{
+	margin-top:20px;
+}
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea{
+	border: 0px solid #e6e6e6;
+}
+.left-post-menu ul{
+	list-style:none;
+}
+a {
+    color: var(--e-global-color-035e7ed);
+}
+.w-full img{
+	width:100%;
+}
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
